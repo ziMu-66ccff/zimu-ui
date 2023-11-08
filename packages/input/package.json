@@ -1,0 +1,35 @@
+{
+  "name": "@zimu-ui/input",
+  "version": "1.0.0",
+  "description": "one vue3 + ts component ui library",
+  "keywords": [
+    "vue3",
+    "ui",
+    "component ui"
+  ],
+  "author": "ziMu",
+  "license": "ISC",
+  "scripts": {
+    "build": "vite build"
+  },
+  "main": "./dist/zimu-input.umd.js",
+  "module": "./dist/zimu-input.mjs",
+  "types": "./dist/zimu-input.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/zimu-input.umd.js",
+      "import": "./dist/zimu-input.mjs",
+      "types": "./dist/zimu-input.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "dependencies": {
+    "@zimu-ui/shared": "workspace:^"
+  },
+  "devDependencies": {}
+}

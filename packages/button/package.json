@@ -1,0 +1,35 @@
+{
+  "name": "@zimu-ui/button",
+  "version": "1.0.0",
+  "description": "one vue3 + ts component ui library",
+  "keywords": [
+    "vue3",
+    "ui",
+    "component ui"
+  ],
+  "author": "ziMu",
+  "license": "ISC",
+  "scripts": {
+    "build": "vite build"
+  },
+  "main": "./dist/zimu-button.umd.js",
+  "module": "./dist/zimu-button.mjs",
+  "types": "./dist/zimu-button.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/zimu-button.umd.js",
+      "import": "./dist/zimu-button.mjs",
+      "types": "./dist/zimu-button.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "dependencies": {
+    "@zimu-ui/shared": "workspace:^"
+  },
+  "devDependencies": {}
+}

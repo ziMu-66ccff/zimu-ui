@@ -1,0 +1,35 @@
+{
+  "name": "@zimu-ui/ui",
+  "version": "1.0.0",
+  "description": "one utiles library from @zimu-ui/ui",
+  "keywords": [
+    "vue3",
+    "ui",
+    "utils"
+  ],
+  "author": "ziMu",
+  "license": "ISC",
+  "scripts": {
+    "build": "vite build"
+  },
+  "main": "./dist/ui.umd.js",
+  "module": "./dist/ui.mjs",
+  "types": "./dist/ui.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/ui.umd.js",
+      "import": "./dist/ui.mjs",
+      "types": "./dist/ui.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {},
+  "dependencies": {
+    "@zimu-ui/button": "workspace:^",
+    "@zimu-ui/input": "workspace:^",
+    "@zimu-ui/shared": "workspace:^"
+  },
+  "devDependencies": {}
+}
