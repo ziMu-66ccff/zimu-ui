@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ZMButton, ZMInput } from "@zimu-ui/ui";
+import { ZMButton, ZMInput } from '@zimu-ui/ui';
 </script>
 
 <template>

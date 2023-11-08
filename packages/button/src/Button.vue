@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { hello } from "@zimu-ui/shared";
+import { hello } from '@zimu-ui/shared';
 
 defineOptions({
-  name: "ZMButton",
+  name: 'ZMButton',
 });
 
-const props = withDefaults(defineProps<{ prop: string }>(), { prop: "" });
+const props = withDefaults(defineProps<{ prop: string }>(), { prop: '' });
 // const emit = defineEmits<{ event: [id: number, name?: string] }>();
 
 function clickHander() {

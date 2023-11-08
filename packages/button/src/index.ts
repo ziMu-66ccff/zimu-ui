@@ -1,5 +1,5 @@
-import type { App } from "vue";
-import ZMButton from "./Button.vue";
+import type { App } from 'vue';
+import ZMButton from './Button.vue';
 
 ZMButton.install = function (app: App) {
   app.component(ZMButton.name, ZMButton);

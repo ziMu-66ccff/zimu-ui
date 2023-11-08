@@ -1,10 +1,10 @@
 <script setup lang="ts">
 defineOptions({
-  name: "ZMInput",
+  name: 'ZMInput',
 });
 
 const props = withDefaults(defineProps<{ prop: string }>(), {
-  prop: "ZMInput",
+  prop: 'ZMInput',
 });
 // const emit = defineEmits<{ event: [id: number, name?: string] }>();
 </script>
